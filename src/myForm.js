@@ -9,7 +9,7 @@ export default function MyForm() {
   const [result4, setResult4] = useState("");
   const [result5, setResult5] = useState("");
   const [result6, setResult6] = useState("");
-  const [result7, setResult7] = useState("");
+  // const [result7, setResult7] = useState("");
 
   const style = {
     marginBottom: 2 + "em",
@@ -70,9 +70,9 @@ export default function MyForm() {
         (inputs.totalMix - inputs.totalMixLeft)
       ).toFixed(4)} mL pH Down/Up used`
     );
-    setResult7(
-      inputs.totalMixUsed
-    )
+    // setResult7(
+    //   inputs.totalMixUsed
+    // )
     submitBtnView();
   };
 
