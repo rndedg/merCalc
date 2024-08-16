@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  text-align: -webkit-right;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-color: rgb(221, 219, 219);
+  width: 100%;
+}
+
+input {
+  width: 20%;
+}
+
+.merLogo {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -2;
+}
+
+h3 {
+  display: flex;
+  text-align: -webkit-left;
+  padding-left: 2%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.submitBtn {
+  background-color: #04aa6d;
+  border-radius: 6px;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  padding: 10px;
+}
+
+.submitBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.resetBtn {
+  background-color: #04aa6d;
+  border-radius: 6px;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.resetBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+form {
+  width: 100%;
+}
